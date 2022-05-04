@@ -1,0 +1,158 @@
+#HTML CODE
+#home code
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav>
+        <div class="heading">
+            <h4>WEB TECHNOLOGY</h4>
+        </div> 
+    <ul class='nav-links'>
+        <li><a class='active' href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/services.html">Service</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+    
+    </ul>
+     </nav>
+     <div><h1>This is a Home Page</h1></div>
+    <img src="C:\Users\Pavan Goparaju\Downloads\web - Copy.jpg" width="800px" height="400px">
+<h3>Web Technology refers to the various tools and techniques that are utilized in the process of communication between different types of devices over the internet</h3>
+</body>
+</html>
+
+# about code
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../app.css">
+    <title>about</title>
+</head>
+<body>
+    <nav>
+        <div class="heading">
+            <h4>WEB TECHNOLOGY</h4>
+        </div> 
+    <ul class='nav-links'>
+        <li><a href="../index.html">Home</a></li>
+        <li><a class='active' href="pages/about.html">About</a></li>
+        <li><a href="pages/services.html">Service</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+    
+    </ul>
+     </nav>
+     <div class="body-text"><h1>This is About Page</h1></div>   
+</body>
+</html>
+
+#service code
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../app.css">
+    <title>Service</title>
+</head>
+<body>
+    <nav>
+        <div class="heading"><h4>WEB TECHNOLOGY</h4></div> 
+    <ul class='nav-links'>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a class='active' href=services.html">Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    
+    </ul>
+     </nav>
+     <div class="body-text"><h1>This is Service Page</h1></div>   
+</body>
+</html>
+
+#contact code 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../app.css">
+    <title>contact</title>
+</head>
+<body>
+    <nav>
+        <div class="heading"><h4>WEB TECHNOLOGY</h4></div> 
+    <ul class='nav-links'>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Service</a></li>
+        <li><a class='active' href="contact.html">Contact</a></li>
+    
+    </ul>
+     </nav>
+     <div class="body-text"><h1>This is Contact Page</h1></div>
+    
+</body>
+</html>
+
+#css code
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links{
+    list-style: none;
+}
+.heading{
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links a{
+    color: antiquewhite;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+.nav-links li a:hover:not(.active){
+    background-color: lightblue;
+}
+.nav-links li a.active{
+    background-color: azure;
+}
+
+
+
